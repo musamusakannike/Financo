@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Financo - Login/Sign Up</title>
+	<meta
+		name="Welcome to Financo, your trusted partner for all your cryptocurrency needs. Our services include secure currency wallet management, expert support, and investment advice. Discover why customers choose us for our expert management, secure investment options, and instant trading capabilities. Learn more about our team and hear from satisfied customers. Subscribe to stay updated with the latest news and developments in the world of cryptocurrency. Join us as we navigate the exciting world of digital finance together.">
+	<!--Link to styles.css-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.css">
+    <style>
+        .login-container {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg">
+		<a class="navbar-brand text-light">Financo</a>
+		<button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+				class="fa fa-2x fa-navicon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.html#about">ABOUT</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.html#services">SERVICES</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.html#whyUs">WHY US</a></li>
+				<li class="nav-item"><a class="nav-link" href="index.html#team">TEAM</a></li>
+				<li class="nav-item"><a class="nav-link active" href="#"><i class="fa fa-user"></i>LOGIN</a></li>
+				<li class="nav-item"><a class="nav-link text-light"><i class="fa fa-search"></i></a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<main class="py-5 my-5 px-2 text-center">
+        <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Login</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="loginEmail">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2>Sign Up</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="signupName">Name</label>
+                            <input type="text" class="form-control" id="signupName" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupEmail">Email address</label>
+                            <input type="email" class="form-control" id="signupEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="signupPassword">Password</label>
+                            <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+	<footer class="text-light p-1">
+		<section class="grid-container">
+			<section id="address" class="p-2 mb-4">
+				<h4>Address</h4>
+				<p><i class="fa fa-map-marker"></i> Location</p>
+				<p><i class="fa fa-phone"></i> Call +01 1234567890</p>
+				<p><i class="fa fa-envelope"></i> project@anymail.com</p>
+				<span>
+					<i class="fa fa-2x fa-facebook"></i>
+					<i class="fa fa-2x fa-twitter"></i>
+					<i class="fa fa-2x fa-linkedin"></i>
+					<i class="fa fa-2x fa-instagram"></i>
+				</span>
+			</section>
+			<section id="info" class="mb-4">
+				<h4>Info</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestias fugit deleniti pariatur nisi
+					maiores dolorum corrupti, debitis provident aperiam.</p>
+			</section>
+			<section id="links" class="pl-2">
+				<h4>Links</h4>
+				<li><a class="py-2" href="index.html">Home</a></li>
+				<li><a class="py-2" href="index.html#about">About</a></li>
+				<li><a class="py-2" href="index.html#services">Services</a></li>
+				<li><a class="py-2" href="index.html#whyUs">Why us</a></li>
+				<li><a class="py-2" href="index.html#team">Team</a></li>
+			</section>
+			<section id="subscribe" class="mb-4">
+				<h4>Subscribe</h4>
+				<input type="email"
+					class="border-left-0 border-right-0 border-top-0 border-bottom border-light py-2 my-2" name="email"
+					placeholder="Enter email">
+				<button class="lightblue d-block px-5 py-2">SUBSCRIBE</button>
+			</section>
+		</section>
+	</footer>
+
+	<section id="copyright" class="text-center bg-light">
+		<p>&copy; 2023 All Rights Reserved</p>
+	</section>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/f93edf7c4c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
